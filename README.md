@@ -50,6 +50,37 @@ Docker allows you to package an application with its environment and all of its 
    - Create package.json file, fill code as follow: <br>
      ![Screenshot_24](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/faefdeb1-5881-48e4-afb1-d68430ca1b6f)
 
-7. Build nodejs app
-8. Run nodejs app
-9. done
+5. Build nodejs app image
+   - At terminal use command below
+   ```
+   # Build nodejs app
+   docker build . -t <nodejs_app_name>
+
+   # Wait until process finish
+   ```
+   ![Screenshot_16](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/7e074aca-f5da-44d1-9c2a-68b8516dce4f)
+
+   - Check docker images to check nodejs app
+   ```
+   docker images
+   ```
+   ![Screenshot_19](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/f4b9660f-cba0-427f-818f-046c427cd742)
+
+7. Run nodejs app
+   ```
+   # Run nodejs app that we built
+   docker run -p <local_port:nodejs_port> <nodejs_app_name>:latest
+   ```
+   ![Screenshot_17](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/bd9c2ad9-6249-4de4-9751-1371147a7e14)
+
+8. Test the project
+   - Check nodejs is running
+     '''
+     docker ps
+     ```
+     ![Screenshot_18](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/be448847-5ff6-4e1e-b45c-e7a04d713929)
+
+   - Check with browser, open browser and enter url: localhost:3000
+     ![Screenshot_20](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/231944a4-4289-4413-a4f1-50a7cad069c2)
+
+9. Done
