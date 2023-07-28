@@ -75,12 +75,12 @@ Docker allows you to package an application with its environment and all of its 
 
 8. Test the project
    - Check nodejs is running
-     '''
+     ```
      docker ps
      ```
      ![Screenshot_18](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/be448847-5ff6-4e1e-b45c-e7a04d713929)
 
-   - Check with browser, open browser and enter url: localhost:3000
+   - Check with browser, open browser and enter url: localhost:3000 <br>
      ![Screenshot_20](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/231944a4-4289-4413-a4f1-50a7cad069c2)
 
 9. Done
