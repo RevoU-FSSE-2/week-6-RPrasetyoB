@@ -74,7 +74,7 @@ Docker allows you to package an application with its environment and all of its 
    ![Screenshot_17](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/bd9c2ad9-6249-4de4-9751-1371147a7e14)
 
 8. Test the project
-   - Check nodejs is running
+   - Check nodejs container is running
      ```
      docker ps
      ```
