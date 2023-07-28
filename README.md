@@ -21,7 +21,7 @@ Docker allows you to package an application with its environment and all of its 
      # Install WSL
      wsl --install
      ```
-     Wait until installation completed
+     Wait until installation completed<br>
      ![Screenshot_3](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/d6dfd1b3-9da9-4986-b1b8-c4ae693f22f5)
 
      ```
@@ -36,8 +36,20 @@ Docker allows you to package an application with its environment and all of its 
      ```
      ![Screenshot_14](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/4d0253cc-4945-44c7-9de6-6122dc65e00f)
 
-4. Create Dockerfile
-5. Create nodejs code and package.json
-6. Build nodejs app
-7. Run nodejs app
-8. done
+3. Create Dockerfile
+   - Make repository at github for our project
+   - Clone repository to our local PC
+   - Open your local repository with Visual studio and Create new file and name it Dockerfile
+   - Fill code as follow: <br>
+   ![Screenshot_22](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/afea844b-21c8-47b9-874e-e7dc2591e49e)
+     
+4. Create nodejs code and package.json
+   - Create nodejs file, fill code as follow: <br>
+     ![Screenshot_23](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/ba289df7-f2d6-4500-9e49-ce6b0fae4f1b)
+
+   - Create package.json file, fill code as follow: <br>
+     ![Screenshot_24](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/faefdeb1-5881-48e4-afb1-d68430ca1b6f)
+
+7. Build nodejs app
+8. Run nodejs app
+9. done
