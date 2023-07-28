@@ -7,12 +7,19 @@ Docker allows you to package an application with its environment and all of its 
 
 ## Workflow
 1. Install Docker
-   - Download Docker,Go to [Install Docker Desktop on Windows | Docker Documentation](https://docs.docker.com/desktop/install/windows-install/)
+   - Download Docker, Go to [Install Docker Desktop on Windows | Docker Documentation](https://docs.docker.com/desktop/install/windows-install/)
    - Wait download finish and install Docker
-   - Check Docker version, Open terminal and tipe "docker -v" <br>
+   - Check Docker version in terminal
+     ```
+     #check version
+     docker -v
+     ```
      ![Screenshot_21](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/318ea23e-e0fd-4983-8efe-48105afb0181)
 2. Install WSL
-   
+   - Open terminal and Run as Administrator
+     ```
+     
+     
 4. Create Dockerfile
 5. Create nodejs code and package.json
 6. Build nodejs app
