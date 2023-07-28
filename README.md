@@ -26,8 +26,6 @@ Docker allows you to package an application with its environment and all of its 
      # Check version
      wsl --version
      ````
-![Screenshot_13](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/5187261e-9fc2-4f17-a323-391562d824f6)
-
      # Make sure WSL version is the latest
      wsl --update
      
