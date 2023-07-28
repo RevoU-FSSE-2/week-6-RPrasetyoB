@@ -9,6 +9,7 @@ Docker allows you to package an application with its environment and all of its 
 1. Install Docker
    - Download Docker, Go to [Install Docker Desktop on Windows | Docker Documentation](https://docs.docker.com/desktop/install/windows-install/)
    - Wait download finish and install Docker
+   - Run Docker after installed
    - Check Docker version in terminal
      ```
      # check version
