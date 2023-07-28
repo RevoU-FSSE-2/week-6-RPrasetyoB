@@ -1,17 +1,17 @@
 # Select node version
-FROM node:alphine
+FROM node:18
 
 # Create app directory
 WORKDIR /app
 
-# Copy app source
+# Copy all files to container
 COPY . .
 
-# Building code
+# install all the depedencies that needed
 RUN npm install
 
-# Port expose
+# Port expose that we use for nodejs app
 EXPOSE 3001
 
-# Run Node server
+# Run / execute docker image Node server
 CMD ["node", "app.js"]
