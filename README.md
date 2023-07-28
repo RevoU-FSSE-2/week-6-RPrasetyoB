@@ -11,13 +11,25 @@ Docker allows you to package an application with its environment and all of its 
    - Wait download finish and install Docker
    - Check Docker version in terminal
      ```
-     #check version
+     # check version
      docker -v
      ```
      ![Screenshot_21](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/318ea23e-e0fd-4983-8efe-48105afb0181)
 2. Install WSL
    - Open terminal and Run as Administrator
      ```
+     # Install WSL
+     wsl --install
+     ```
+     
+     ```
+     # Check version
+     wsl --version
+     ````
+![Screenshot_13](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/5187261e-9fc2-4f17-a323-391562d824f6)
+
+     # Make sure WSL version is the latest
+     wsl --update
      
      
 4. Create Dockerfile
