@@ -21,15 +21,21 @@ Docker allows you to package an application with its environment and all of its 
      # Install WSL
      wsl --install
      ```
-     
+     Wait until installation completed
+     ![Screenshot_3](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/d6dfd1b3-9da9-4986-b1b8-c4ae693f22f5)
+
      ```
      # Check version
      wsl --version
-     ````
+     ```
+     ![Screenshot_13](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/bcba132e-66d4-4d11-a9ab-02fa3e025992)
+
+     ```
      # Make sure WSL version is the latest
      wsl --update
-     
-     
+     ```
+     ![Screenshot_14](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/4d0253cc-4945-44c7-9de6-6122dc65e00f)
+
 4. Create Dockerfile
 5. Create nodejs code and package.json
 6. Build nodejs app
