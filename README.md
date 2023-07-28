@@ -21,7 +21,7 @@ Docker allows you to package an application with its environment and all of its 
      # Install WSL
      wsl --install
      ```
-     Wait until installation completed<br>
+     Wait until installation completed <br>
      ![Screenshot_3](https://github.com/RevoU-FSSE-2/week-6-RPrasetyoB/assets/129088807/d6dfd1b3-9da9-4986-b1b8-c4ae693f22f5)
 
      ```
